@@ -91,7 +91,7 @@ function App() {
               qNum={number + 1}
               totalQs={TOTAL_QUESTIONS}
               question={questions[number].question}
-              answers={questions[number].answer}
+              answers={questions[number].answers}
               userAns={userAns ? userAns[number] : undefined}
               callback={checkAnswer}
             />
